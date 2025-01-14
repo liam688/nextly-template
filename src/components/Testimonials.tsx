@@ -13,42 +13,39 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              The <Mark>AI automation solution</Mark> reduced our processing time by 75% and eliminated manual errors. The ROI was evident within the first quarter of implementation.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Sarah Chen"
+              title="CTO at TechCorp Solutions"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              Their <Mark>seamless integration</Mark> with our existing systems transformed our customer service operations. We now handle 3x more inquiries with better accuracy.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Michael Rodriguez"
+              title="Operations Director at Global Retail"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              The <Mark>data insights</Mark> from the AI system helped us identify and capitalize on market opportunities we were previously missing.
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Emily Watson"
+              title="CEO at Innovation Finance"
             />
           </div>
         </div>

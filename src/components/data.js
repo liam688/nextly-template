@@ -11,46 +11,46 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "AI-Powered Business Automation",
+  desc: "Transform your business operations with our cutting-edge AI solutions. We seamlessly integrate artificial intelligence into your existing workflows to drive efficiency, reduce costs, and boost productivity.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Smart Process Automation",
+      desc: "Automate routine tasks and workflows with AI-driven solutions that learn and adapt to your business needs.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Data-Driven Insights",
+      desc: "Make informed decisions with advanced analytics and AI-powered business intelligence tools.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Operational Excellence",
+      desc: "Optimize resource allocation and streamline operations with intelligent automation systems.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Enterprise Integration Solutions",
+  desc: "Our comprehensive AI integration services ensure seamless implementation while maximizing your return on investment. We transform your existing systems into intelligent, automated powerhouses.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Seamless Integration",
+      desc: "Integrate AI solutions with your existing systems and workflows without disrupting operations.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Customized Solutions",
+      desc: "Tailored AI implementations that address your specific business challenges and objectives.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Scalable Architecture",
+      desc: "Future-proof solutions that grow with your business and adapt to changing needs.",
       icon: <SunIcon />,
     },
   ],

@@ -36,21 +36,23 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How can AI automation benefit my business?",
+    answer: "AI automation can transform your business operations by streamlining workflows, reducing manual tasks, and improving decision-making. Our solutions can help reduce operational costs by up to 40%, increase productivity through 24/7 automated processes, and minimize human error in routine tasks. You'll also gain valuable insights from your data to make more informed business decisions.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How long does it take to implement your AI solutions?",
+    answer: "Implementation timelines vary based on your business needs and existing infrastructure. Typically, our basic automation solutions can be deployed within 4-6 weeks, while more complex enterprise-wide implementations may take 3-4 months. We ensure a smooth transition with minimal disruption to your current operations through our phased implementation approach.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "What about data security and privacy?",
+    answer: "Security is our top priority. Our AI solutions are built with enterprise-grade security protocols, including end-to-end encryption, secure data handling, and compliance with major regulatory standards (GDPR, HIPAA, etc.). We implement robust access controls and regular security audits to protect your sensitive business data.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "Can your AI solutions integrate with our existing systems?",
+    answer: "Yes, our AI solutions are designed for seamless integration with most common business systems and software. We support integration with major ERP systems, CRM platforms, databases, and custom applications through our flexible API architecture. Our team will work with you to ensure smooth integration while maintaining your existing workflows.",
+  },
+  {
+    question: "What kind of ROI can we expect?",
+    answer: "While ROI varies by implementation, our clients typically see returns within 6-12 months of deployment. This includes cost savings from automated processes, increased productivity, and improved decision-making accuracy. We provide detailed analytics and reporting to help you track and measure the impact on your business operations.",
   },
 ];

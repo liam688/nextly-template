@@ -2,56 +2,58 @@ import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
-import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
+import { Contact } from "@/components/Contact";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+
 export default function Home() {
   return (
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Our Solutions"
+        title="Transform Your Business with AI"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Discover how our AI-powered automation solutions can revolutionize your business operations,
+        boost efficiency, and drive sustainable growth.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="Success Stories"
+        title="What Our Clients Say"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
-      </SectionTitle>
-
-      <Video videoId="fZ0D0cnR88E" />
-
-      <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Learn how businesses across different industries have achieved remarkable results
+        with our AI automation solutions.
       </SectionTitle>
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle 
+        preTitle="FAQ" 
+        title="Frequently Asked Questions"
+      >
+        Find answers to common questions about our AI automation solutions, implementation
+        process, and the benefits for your business.
       </SectionTitle>
 
       <Faq />
       <Cta />
+
+      <SectionTitle
+        preTitle="Contact Us"
+        title="Let's Start Your AI Journey"
+      >
+        Ready to transform your business? Get in touch with us to discuss your needs
+        and discover how we can help you achieve your goals.
+      </SectionTitle>
+
+      <Contact />
     </Container>
   );
 }
